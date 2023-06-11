@@ -1,0 +1,9 @@
+1. Open the Command Prompt or Terminal
+2. Login to SCU remote Linux
+    $ ssh username@linux.dc.engr.scu.edu
+3. Setup the Oracle environment
+    $ setup oracle 
+4. Run sqlplus command to login to Oracle 
+    $ sqlplus xyi@db11g
+5. After inputting the password, then you will see the SQL CLI
+    SQL> 

@@ -1,0 +1,16 @@
+
+                                      Find Properties Report June 5, 2023
+
+Property Name        Property Address                    Rooms Availability
+-------------------- ----------------------------------- ----- --------------------
+Apartment1           135 Park Street, San Jose, 95051        5 Available
+
+
+
+
+
+
+
+
+
+                                       For Management Only

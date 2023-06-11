@@ -1,0 +1,20 @@
+
+                                                         Owner Properties Report June 5, 2023
+
+Owner Name           Owner Phone          Property Name        Property Address                    Branch Name
+-------------------- -------------------- -------------------- ----------------------------------- --------------------
+Owner A              777-888-9999         Apartment1           135 Park Street, San Jose, 95051    Branch A
+Owner A              777-888-9999         Villa1               123 Main St, San Jose, 12345        Branch A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                  For Management Only

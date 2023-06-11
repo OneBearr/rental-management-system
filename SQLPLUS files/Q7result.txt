@@ -1,0 +1,25 @@
+
+                                                                                  Renter Agreement Report June 5, 2023
+
+
+
+Agreement Id Property Name        Property Address                    Renter Name  Renter Home #   Renter Work #   Start Dat End Date     Deposit Monthly Rent
+
+------------ -------------------- ----------------------------------- ------------ --------------- --------------- --------- --------- ---------- ------------
+
+           1 Villa1               123 Main St, San Jose, 12345        John         123456789       987654321       01-JUN-23 01-JUN-24       1500         1500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                           For Management Only

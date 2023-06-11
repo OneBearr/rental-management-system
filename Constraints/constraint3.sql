@@ -1,0 +1,8 @@
+CREATE OR REPLACE TRIGGER update_property_status
+AFTER INSERT ON agreement
+FOR EACH ROW
+BEGIN
+  UPDATE property
+  SET AVAILABILITY = 'Leased'
+  WHERE ID = :new.PROPERTYID;
+END;

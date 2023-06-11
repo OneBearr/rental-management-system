@@ -1,0 +1,28 @@
+
+Manager Name
+
+--------------------
+
+Manager A
+
+
+
+Supervisor Name      Manager Name
+
+-------------------- --------------------
+
+Supervisor A         Manager A
+
+Supervisor B         Manager A
+
+
+
+Supervisor Name      Property Name        Property Address
+
+-------------------- -------------------- -----------------------------------
+
+Supervisor B         Apartment1           135 Park Street, San Jose, 95051
+
+Supervisor A         Villa1               123 Main St, San Jose, 12345
+
+Supervisor A         TownHouse1           200 Mission St, Santa Clara, 95050

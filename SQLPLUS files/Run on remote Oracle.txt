@@ -1,0 +1,2 @@
+1. After logged into Linux, go to the directory where sql files located.
+	Run $ sqlplus xyi@db11g/<oracle_password> @filename.sql

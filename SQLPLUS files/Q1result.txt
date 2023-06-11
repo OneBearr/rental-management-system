@@ -1,0 +1,11 @@
+
+                                           Available Properties Report June 5, 2023
+
+Property Number Property Name        Property Address                    Availability          Branch Name
+--------------- -------------------- ----------------------------------- -------------------- --------------------
+              3 Apartment1           135 Park Street, San Jose, 95051    Available             Branch A
+
+
+
+
+                                            For Management Only

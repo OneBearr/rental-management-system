@@ -1,0 +1,31 @@
+
+1 row created.
+
+
+                                                                                  Create Agreement Report June 6, 2023
+
+
+
+        ID PROPERTYID RENTERNAME                RENTERHOME#          RENTERWORK#          STARTDATE ENDDATE      DEPOSIT MONTHLYRENT
+
+---------- ---------- ------------------------- -------------------- -------------------- --------- --------- ---------- -----------
+
+         3          4 John                      123456789            987654321            01-JAN-23 01-JAN-24       1500        1000
+
+         1          1 John                      123456789            987654321            01-JUN-23 01-JUN-24       1500        1500
+
+         2          2 Bob                       123123123            456456456            01-JUL-22 01-JUL-23       2000        2000
+
+         4          3 Sam                       2347894321           4531541354           01-JAN-24 01-JAN-25       3000        3000
+
+
+
+
+
+
+
+
+
+
+
+                                                                                           For Management Only

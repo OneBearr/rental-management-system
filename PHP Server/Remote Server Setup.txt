@@ -1,0 +1,13 @@
+1. Login to SCU ECC
+	ssh xyi@linux.dc.engr.scu.edu
+
+2. Go to /webpages/xyi directory
+	cd /webpages/xyi
+
+3. Put .php files under this directory
+
+4. Change permission by
+	chmod 744 filename.php
+
+5. Go to 
+	https://ssl.students.engr.scu.edu/~xsyi/index.php

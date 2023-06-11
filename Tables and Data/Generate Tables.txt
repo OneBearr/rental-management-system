@@ -1,0 +1,76 @@
+-- Create Address table
+CREATE TABLE Address (
+  id NUMBER(38),
+  street VARCHAR2(100),
+  city VARCHAR2(100),
+  zipcode VARCHAR2(10),
+  PRIMARY KEY (id)
+);
+
+-- Create Branch table
+CREATE TABLE Branch (
+  id NUMBER(38),
+  phone VARCHAR2(20),
+  address_id NUMBER(38),
+  name VARCHAR2(100),
+  PRIMARY KEY (id),
+  FOREIGN KEY (address_id) REFERENCES Address(id)
+);
+
+-- Create Employee table
+CREATE TABLE Employee (
+  id NUMBER(38),
+  name VARCHAR2(100),
+  phone VARCHAR2(20),
+  start_date DATE,
+  job VARCHAR2(100),
+  branch_id NUMBER(38),
+  manager_id NUMBER(38),
+  PRIMARY KEY (id),
+  FOREIGN KEY (branch_id) REFERENCES Branch(id),
+  FOREIGN KEY (manager_id) REFERENCES Employee(id)
+);
+
+-- Create Owner table
+CREATE TABLE Owner (
+  id NUMBER(38),
+  name VARCHAR2(100),
+  address_id NUMBER(38),
+  phone VARCHAR2(20),
+  PRIMARY KEY (id),
+  FOREIGN KEY (address_id) REFERENCES Address(id)
+);
+
+-- Create Property table
+CREATE TABLE Property (
+  id NUMBER(38),
+  owner_id NUMBER(38),
+  address_id NUMBER(38),
+  rooms NUMBER(38),
+  monthly_rent NUMBER(10,2),
+  availability VARCHAR2(20),
+  start_date DATE,
+  supervisor_id NUMBER(38),
+  name VARCHAR2(100),
+  branch_id NUMBER(38),
+  PRIMARY KEY (id),
+  FOREIGN KEY (owner_id) REFERENCES Owner(id),
+  FOREIGN KEY (address_id) REFERENCES Address(id),
+  FOREIGN KEY (supervisor_id) REFERENCES Employee(id),
+  FOREIGN KEY (branch_id) REFERENCES Branch(id)
+);
+
+-- Create Agreement table
+CREATE TABLE Agreement (
+  id NUMBER(38),
+  property_id NUMBER(38),
+  renter_name VARCHAR2(100),
+  renter_home# VARCHAR2(20),
+  renter_work# VARCHAR2(20),
+  start_date DATE,
+  end_date DATE,
+  deposit NUMBER(10,2),
+  monthly_rent NUMBER(10,2),
+  PRIMARY KEY (id),
+  FOREIGN KEY (property_id) REFERENCES Property(id)
+);
