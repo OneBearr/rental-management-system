@@ -20,7 +20,7 @@
     <?php
     // Database connection details
     $username = 'xyi';
-    $password = 'RTSQ#9458xsyi';
+    $password = 'oracle_pwd';
     $dbname = '//oracle.engr.scu.edu/db11g';
 
     // Create a connection to the database
