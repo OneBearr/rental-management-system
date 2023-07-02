@@ -4,4 +4,4 @@ Design and implement a Rental Management System for StrawberryField’s Rental M
   
 PHP, SQLPlus, Oracle, Web Server, Linux
 
-See detail in "Project Report XY 280 Database.pdf"
+See details in "Project Report XY 280 Database.pdf"
